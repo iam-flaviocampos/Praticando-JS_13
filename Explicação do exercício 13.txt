@@ -1,0 +1,20 @@
+Nesse código, temos uma função chamada `diasDaSemana` que recebe um parâmetro `dia`. Essa função usa a
+estrutura de controle `switch` para verificar o valor de `dia` e executar diferentes blocos de código
+dependendo desse valor.
+
+Dentro do `switch`, cada `case` representa um dia da semana, começando com domingo como caso 1 e terminando
+com sábado como caso 7. Quando o valor de `dia` corresponde a um dos casos, é executada uma instrução
+`console.log` que exibe uma mensagem indicando se o dia é um dia útil ou fim de semana.
+
+Se `dia` não corresponder a nenhum dos casos especificados, o fluxo de controle passa para o bloco `default`,
+que exibe uma mensagem indicando que o dia é inválido.
+
+Após a definição da função, há várias chamadas a essa função para verificar diferentes dias da semana.
+Por exemplo, `diasDaSemana(1)` exibirá a mensagem "domingo, fim de semana" no console.
+
+Em seguida, há um exemplo de outra maneira de implementar a mesma lógica usando outra função chamada
+`verificarDiaSemana`. A diferença é que nessa função, os casos de domingo e sábado são agrupados, permitindo
+que a mesma mensagem seja exibida para ambos os dias. O restante da lógica é semelhante ao primeiro exemplo.
+
+Ambos os exemplos são formas válidas de resolver o problema e exibir se um dia é um dia útil, fim de semana
+ou dia inválido com base no número do dia.
